@@ -1,0 +1,137 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+.fxl-head {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+.fxl-banner{
+    width: 100%;
+    height: 646px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.fxl-sbox {
+    width: 1920px;
+    height: 646px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    background: url(../image/fxl-bannerbg.png);
+}
+.fxl-wz1{
+    position: absolute;
+    left: 500px;
+    top:213px;
+    width: 401px;
+    height:67px;
+    background: url(../image/fxl-wz1.png);
+}
+.fxl-wz2{
+    width: 881px;
+    height:116px;
+    position: absolute;
+    left: 500px;
+    top:294px;
+    background: url(../image/fxl-wz2.png);
+}
+.fxl-shadow{
+    width: 100%;height:501px ;
+    background: url(../image/fxl-banner-mask.png);
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+/*中间*/
+.fxl-doc{
+    width: 1200px;
+    height:923px;
+    margin: 0 auto;
+    background: #fff;
+   position: relative;
+}
+/*左边*/
+.fxl-left{
+    width: 336px;
+    height: 870px;
+    position: absolute;
+    left:0;
+    top:-181px;
+    background:#fff;
+    box-shadow: 0 0 10px 3px #ccc;
+}
+.fxl-top{
+    width: 100%;
+    height: 424px;
+    position: relative;
+
+
+}
+.fxl-top1{
+    width: 100%;
+    height: 10px;
+    background:#E8BC0F;
+}
+.fxl-moban{
+    position: absolute;
+    left: -9px;
+    top:40px;
+    width: 350px;height: 101px;
+    background: url(../image/fxl-m.png);
+}
+.fxl-top2{
+    background:#fff;
+    margin-top: 160px;
+    width: 100%;
+    height:243px;
+}
+.fxl-m{
+    width: 100%;
+    height: 22px;
+    background:#F1F1F1 ;
+}
+.fxl-item{
+    width: 280px;
+    height: 35px;
+    margin-left: 28px;
+    margin-top: 30px;
+    /*background: red;*/
+    font-size: 26px;
+    color: #4d4d4d;
+    line-height:35px;
+
+}
+.fxl-item span{
+    float: right;
+}
+
+.fxl-botton{
+    width: 100%;
+    height: 424px;
+    background: #fff;
+    position: relative;
+}
+.fxl-tj{
+    width: 357px;
+    height: 100px;
+    background: url(../image/fxl-rec.png);
+    margin-left: -15px;
+}
+.fxl-wenzi{
+    background:#fff;
+    margin-top: 20px;
+    width: 100%;
+    height:243px;
+}
+/*右边*/
+.fxl-right{
+    width: 850px;
+    height: 870px;
+    position: absolute;
+    left:356px;
+    top:-181px;
+    background: blue;
+}
