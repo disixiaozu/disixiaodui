@@ -166,3 +166,207 @@ body,p,pre,ul,li,ol,dl,dt,dd,h1,form,input,h3{
 	padding:0;
     list-style: none;
 }
+.lgb_denglv{
+    width: 953px;
+    height: 574px;
+    border:1px solid #10c8f0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -271px;
+    margin-left: -476px;
+    background: #EFEFEF;
+}
+.lgb_denglv1{
+    width: 953px;
+    height: 691px;
+    border:1px solid #10c8f0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -271px;
+    margin-left: -476px;
+    background: #EFEFEF;
+}
+.lgb_bg{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    background: #000;
+    opacity: 0.8;
+}
+.lgb_hydl {
+    width: 560px;
+    height: 189px;
+    background: #10C8F0;
+    position: absolute;
+    top: -104px;
+    margin-left: 196px;
+    box-shadow: 1px 1px 18px 1px #195c6d;
+    border: 1px solid #76706F;
+
+}
+.lgb_hydl span{
+    display: block;
+    color: white;
+    font-family: 微软雅黑;
+}
+
+.lgb_welcome{
+    margin-left: 180px;
+    font-size: 48px;
+    position: absolute;
+    top: 45px;
+    font-weight: bold;
+    font-family: JHRuHeiZhong;
+
+
+}
+.lgb_interview{
+    font-size: 32px;
+    position: absolute;
+    top: 108px;
+    left: 210px;
+    font-family: San Francsico;
+    font-weight: bold;
+}
+.lgb_sy{
+    width:660px;
+    height:40px;
+    text-align: right;
+    line-height:40px;
+    margin:0 auto;
+    position: absolute;
+    top:215px;
+    left: 143px;
+    padding-right: 20px;
+    color:#C3C3C3;
+    font-size: 18px;
+}
+.lgb_hang1,.lgb_hang2{
+    width:680px;
+    height: 50px;
+    position: absolute;
+    top:265px;
+    left: 143px;
+    float:left;
+}
+
+.lgb_hang2{
+    margin-top:80px;
+}
+.lgb_date{
+    display: inline-block;
+    width: 146px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    background: url(../image/lgb_1.png) no-repeat;
+    background-size: 146px 44px;
+    color: #726028;
+    font-size: 18px;
+    float: left;
+    margin-top: 3px;
+    font-weight: weight ;
+}
+.lgb_dates{
+    float: left;
+    width: 498px;
+    height: 48px;
+    border: #e7e7e7 solid 1px;
+    background: #fff;
+    display: inline-block;
+    margin-left: 24px;
+    position: relative;
+    font-size: 18px;
+    color: #2e2e2e;
+    box-shadow: 0 0 5px 3px #e1e1e1;
+}
+.lgb_dates input{
+    width: 100%;
+    height:100%;
+    border:none;
+    font-size: 18px;
+}
+.lgb_mm{
+    width:660px;
+    height:40px;
+    text-align: right;
+    line-height:40px;
+    margin:0 auto;
+    position: absolute;
+    top:415px;
+    left: 143px;
+    padding-right: 20px;
+    color:#C3C3C3;
+    font-size: 18px;
+}
+.lgb_bz{
+    width:297px;
+    height:40px;
+    text-align: right;
+    line-height:40px;
+    margin:0 auto;
+    position: absolute;
+    top:615px;
+    left:223px;
+    padding-right: 20px;
+    color: #848484;
+    font-size: 18px;
+}
+.lgb_span{
+    width:300px;
+    height:50px;
+    margin:0 auto;
+    margin-top:40px;
+}
+.lgb_img{
+    width:297px;
+    height:286px;
+    margin:0 auto;
+    margin-top:120px;
+    overflow: hidden;
+    position: relative;
+ }
+.lgb_img img{
+    display: block;
+    position: absolute;
+    top:-70px;left:0;
+}
+input{
+    border: 0;
+    background-color: transparent;
+}
+.lgb-mfootl{
+    width: 613px;
+    height:32px;
+    background: #006648;
+    position: absolute;
+    left:77px;
+    bottom:-32px;
+    box-shadow: 3px 3px 3px #005D66;
+
+}
+.lgb-mfoot2{
+    width: 306px;
+    height:22px;
+    position: absolute;
+    left:533px;bottom:-22px;
+}
+.lgb-mfoot2 img{
+    width: 306px;
+    height: 62px;
+}
+.lgb-send{
+    position: absolute;
+    right: 50%;margin-right:-127px;
+    bottom: 70px;
+}
+.lgb-send{background:url(../image/lgb_bg.png);
+     /*background-position:0 -449px;*/
+     width:255px;
+     height:55px;
+ }
+
