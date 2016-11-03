@@ -320,3 +320,127 @@ input{
 	width:266px;height:83px;
 	background:url(../image/mjh-chakan.png) no-repeat;
 }
+
+
+
+/*笔试查看成绩*/
+
+.mjh_mianban2{
+	width: 953px;
+	height: 485px;
+	border:1px solid #10c8f0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -220px;
+	margin-left: -476px;
+	background: #EFEFEF;
+}
+
+.mjh_jinji{
+	width: 416px;
+	height:189px;
+	background: #10C8F0;
+	position: absolute;
+	top: -104px;
+	margin-left: 270px;
+	box-shadow: 1px 1px 18px 1px #195c6d;
+	border:1px solid #76706F;
+}
+.mjh_jinji span{
+	display: block;
+	color: white;
+	font-family: 微软雅黑;
+}
+
+.mjh_jin{
+
+	font-size: 60px;
+	position: absolute;
+	top: 20px;
+	left:80px;
+
+}
+.mjh_jin2{
+
+	font-size: 60px;
+	position: absolute;
+	top: 20px;
+	left:30px;
+
+}
+.mjh-xian{
+	width:374px;height:8px;background:#fff;
+	position: absolute;
+	left:0;right:0;top: 100px;
+	margin:0 auto;
+}
+.mjh-fen,.mjh-mingci{
+	font-size: 48px;
+	position:absolute;
+	bottom:20px;color:#fff;
+	font-weight: bold;
+}
+.mjh-fen{
+left:20px;
+}
+.mjh-mingci{
+left:240px;
+}
+
+.mjh-zt{
+	font-size: 18px;
+	color:#606360;
+	font-family:平方 ;
+	width: 536px; height: 205px;
+	margin:0 auto;
+	margin-top: 95px;
+	padding:0 85px;
+	border-bottom: 1px dashed #ccc;
+
+}
+.mjh-zt2{
+	font-size: 18px;
+	color:#606360;
+	font-family:平方 ;
+	width: 536px; height: 205px;
+	margin:0 auto;
+	margin-top: 95px;
+	padding:0 85px;
+
+}
+.mjh-yongshi{
+	margin:0 auto;
+	text-align: center;
+}
+.mjh-chakan2{
+	position: absolute;
+	left: 145px;
+	bottom: 45px;
+	width:266px;height:83px;
+	background:url(../image/mjh_07.png) no-repeat;
+}
+.mjh-fenlei{
+	margin:0 auto;
+	width:240px;
+	line-height: 50px;
+}
+.mjh-fenlei span{
+	display:block;
+	float:left;
+	width:45%;
+}
+.mjh-fenlei .mjh-jieguo{width:10%;}
+.mjh-huizong{
+	margin:0 auto;
+	width:220px;
+	line-height: 50px;
+}
+.mjh-huizong span{
+	display:block;
+	float:left;
+	width: 50%;
+	font-size: 24px;
+	font-family: 方正大黑繁体;
+	color:#606360;
+}
