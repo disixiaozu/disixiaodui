@@ -835,3 +835,80 @@ input{
 	width: 367px;
 	height: 56px;
 }
+.zj-tz-bodybox{
+	width: 100%;
+	height: auto;
+	background:#f4f4f4;
+}
+.zj-tz-body{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.zj-tz-tongzhi{
+	width: 100%;
+	height: 30px;
+	padding:90px 0 35px 0;
+	font-size: 30px;
+	color: #2a77f6;
+}
+.zj-tz-body ul{
+	width: 100%;
+	height: 1043px;
+	background: #fff;
+	padding-top: 20px;
+}
+.zj-tz-body ul li{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px #f0f0f0 solid;
+	position: relative;
+}
+.zj-tz-laba{
+	float: left;
+	width: 112px;
+	height: 80px;
+	line-height: 80px;
+	color: #f34370;
+	font-size: 14px;
+	position:absolute;
+	padding-left: 54px;
+}
+.zj-tz-laba img{
+	width: 23px;
+	height: 21px;
+	position: absolute;
+	left: 13px;top: 29px;
+}
+.zj-tz-renqi{
+	width: 68px;
+	height: 80px;
+	line-height: 80px;
+	color: #f34370;
+	font-size: 14px;
+	position: absolute;
+	left: 166px;
+}
+.zj-tz-touxiang{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 234px;
+}
+.zj-tz-dongtai{
+	display: inline-block;
+	margin-left: 10px;
+	color: #999;
+	font-size: 14px;
+}
+.zj-tz-dongtai:hover{
+	color: #2a77f6;
+}
+.zj-tz-body ul li span{
+	color: #999999;
+	font-size: 14px;
+	float: right;
+	margin-right: 23px;
+}
