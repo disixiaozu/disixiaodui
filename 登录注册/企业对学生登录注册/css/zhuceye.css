@@ -1,0 +1,159 @@
+.fxs-bj{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.8;
+}
+.fxs-czmm{
+	width: 950px;
+	height: 600px;
+	margin-top: 5%;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-475px;
+	margin-top:-300px;
+}
+.fxs-czmm-top{
+	width: 560px;
+	height: 190px;
+	position: absolute;
+	right: 0;
+	top: -30px;
+	margin-right:200px;
+	background:#10c8f0;
+	box-shadow: 0 0 9px #222;
+	z-index: 6;
+}
+.fxs-p1{
+	font-size: 48px;
+	color: #fff;
+	font-weight:bold;
+	font-family:[JHRuHeiZhong];
+	text-align: center;
+	margin:0;
+	margin-top: 40px;
+
+}
+.fxs-p2{
+	font-size: 32px;
+	color: #fff;
+	font-weight:bold;
+	font-family:San Francisco Display;
+	text-align: center;
+	margin:0;
+}
+.fxs-czmm-mid{
+	width:950px;
+	height: 550px;
+	background: #fff;
+	opacity:1;
+	position: absolute;
+	bottom: 0;
+	z-index: 4;
+}
+.fxs-czmm-mid-1,.fxs-czmm-mid-2,.fxs-czmm-mid-3{
+	width: 670px;
+	height: 50px;
+	margin-bottom: 50px;
+}
+.fxs-czmm-mid-1a,.fxs-czmm-mid-2a,.fxs-czmm-mid-3a{
+	width: 164px;
+	height: 50px;
+	background:url(../image/sly_03.png) no-repeat;
+	background-size: 100%;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+}
+.fxs-czmm-mid-1b,.fxs-czmm-mid-2b,.fxs-czmm-mid-3b{
+	width: 450px;
+	height: 50px;
+	float: right;
+}
+.fxs-czmm-mid-1b input,.fxs-czmm-mid-2b input{
+	display: block;
+	width: 450px;
+	height: 46px;
+	border:1px solid #ccc;
+}
+.fxs-czmm-mid-in{
+	width: 670px;
+	height: 290px;
+	margin: 0 auto;
+	margin-top: 20%;
+}
+.fxs-czmm-mid-in2{
+	width: 670px;
+	margin: 0 auto;
+	margin-top: 20%;
+}
+.fxs-czmm-mid-3b input{
+	display: block;
+	width: 190px;
+	height: 46px;
+	border:1px solid #ccc;
+	float: left;
+	margin-right: 10px;
+}
+.fxs-czmm-mid-3b-span1{
+	display: block;
+	width: 190px;
+	height: 48px;
+	border:1px solid #ccc;
+	float: left;
+}
+.fxs-czmm-mid-3b-span2{
+	display: block;
+/*	width: 20px;*/
+	height: 48px;
+	float: right;
+	line-height: 50px;
+	font-size: 16px;
+	color: #ccc;
+}
+.fxs-czmm-mid-queding{
+	width: 246px;
+	height: 54px;
+	background: url(../image/fxs-qd.png) no-repeat;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.fxs-czmm-mid-youjian{
+	width: 296px;
+	height: 65px;
+	background: url(../image/fxs-yx.png) no-repeat;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.fxs-czmm-but-left{
+	width: 310px;
+	height: 110px;
+	background: url(../image/fxs-bj.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom:-50px;
+	right:50px;
+	z-index: 0;
+}
+.fxs-czmm-but-right{
+	width: 435px;
+	height: 78px;
+	background: #1dd473;
+	position: absolute;
+	bottom:-20px;
+	left:50px;
+	z-index: 0;
+
+}
+.fxs-czmm-mid-quxiao{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: url(../image/fxs-quxiao.png) -2px -3px no-repeat;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
