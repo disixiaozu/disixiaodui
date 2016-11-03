@@ -6,9 +6,9 @@ body,p,pre,ul,li,ol,dl,dt,dd,h1,form,input,h3{
 	padding:0;
     list-style: none;
 }
-.hmq_mianban{
+.mjh_mianban{
 	width: 953px;
-	height: 751px;
+	height: 630px;
 	border:1px solid #10c8f0;
 	position: absolute;
 	left: 50%;
@@ -154,7 +154,7 @@ body,p,pre,ul,li,ol,dl,dt,dd,h1,form,input,h3{
 	font-size: 18px;
 	color: #2e2e2e;
 }
-.fjy-send{
+.mjh-send{
 	position: absolute;
 	right: 145px;
 	bottom: 70px;
@@ -293,9 +293,30 @@ input{
 	background:url(../image/yyb-sendclick.png);
 }
 
-
-.mjh-div{
-	width:100%;
-}.ljt-1{
-	width: 100%;
+.mjh-biaot{
+	width:600px;height:40px;line-height: 40px;
+	border-bottom: 1px dashed #ccc;
+	font-size: 24px;color:#606360;
+	margin:0 auto;
+	margin-top: 100px;
+	font-weight: bold;
+}
+.mjh-wt,.mjh-wt-t{
+	font-size: 18px;line-height: 42px;
+	width:600px;margin:0 auto;
+	font-family: PingFangSC;
+	color:#606360;
+}
+.mjh-wt{margin-top: 10px;}
+.mjh-send{
+	position: absolute;
+	right: 145px;
+	bottom: 70px;
+}
+.mjh-chakan{
+	position: absolute;
+	left: 145px;
+	bottom: 45px;
+	width:266px;height:83px;
+	background:url(../image/mjh-chakan.png) no-repeat;
 }
