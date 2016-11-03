@@ -223,7 +223,34 @@ ul {
     margin-top: 10px;
     background: url(../image/fxl-jr.png);
 }
+.fxl-click{
+    width: 100%;
+    height: 60px;
+    /*background: red;*/
 
+}
+.fxl-click .fxl-tianjia{
+    position: absolute;
+    left: 223px;
+    display: block;
+    width: 173px;height: 60px;
+    background: url(../image/fxl-sjtj.png);
+}
+.fxl-click .fxl-chose{
+    position: absolute;
+    left: 410px;
+    display: block;
+    width: 184px;
+    height: 60px;
+    background: url(../image/fxl-xz.png);
+}
+.fxl-click .fxl-ok{
+    float: right;
+    display: block;
+    width: 170px;
+    height: 60px;
+    background: url(../image/fxl-wc.png);
+}
 
 
 
