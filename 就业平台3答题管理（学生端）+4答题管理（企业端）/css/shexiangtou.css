@@ -1,0 +1,25 @@
+/*确认摄像头状态*/
+*{margin:0;padding: 0;box-sizing: border-box;}
+body,html{width:100%;}
+img,input{border:0;}
+body{background:#000;}
+.lrc-beijing{position: absolute;left:0;right:0;bottom:0;top:0;width:955px;height: 690px;background: #fff;opacity: 0.92;filter: alpha(opacity=92);border:1px solid #53D7F4;box-shadow: 3px 3px 3px #c6c9ca;margin:0 auto;}
+.zhezhao{position: absolute;top:0;left:0;width:100%;height:125px;background: #ececed;opacity: 0.6;filter: alpha(opacity=60);}
+.lrc-xia{width:955px;height:86px;position: absolute;bottom:-136px;left:207px;}
+.lrc-xiazuo{width:615px;height:55px;background: #1dd473;opacity: 0.32;filter: alpha(opacity=32);position: absolute;left:100px;top:0;}
+.lrc-xiayou{width:308px;height:86px;background: url(../image/lrc-youxia_10.png) no-repeat;position: absolute;left:535px;top:0;}
+.lrc-zuo{width:50%;height:100%;float: left}
+.lrc-you{width:50%;height:100%;float: left}
+.lrc-zuoli{width:355px;height:535px;background: white;margin-top: 90px;margin-left:100px}
+.lrc-youli{width:355px;height:500px;background: white;margin-top: 124px;margin-left:26px}
+#lrc-ceshi{font-family: FZDHTFW,楷体;font-size:24px;color:#606360}
+.lrc-buzhou{width:320px;height:40px;line-height: 40px;border-bottom:2px dashed #ccc;color: #777a77;margin-top: 26px;font-size: 18px;font-family:"苹方"}
+.lrc-kong{height: 52px;width: 100%}
+.lrc-kong2{height: 145px;width: 100%}
+.lrc-zuoli p{font-size: 18px;font-family:"苹方";color: #777a77;}
+.lrc-fanhui{cursor: pointer;width:266px;height: 56px;background: url(../image/lrc-fanhui.png) no-repeat;margin:0 auto;position: absolute;left: 160px;bottom:60px;}
+#lrc-dati{line-height: 40px;color: #ba3c3c;font-family: "苹方";font-size:18px;font-weight: bold;}
+.lrc-touxiang{width:100%;height: 372px;background: url(../image/lrc-touxiang.png);position: relative;}
+.lrc-bofang{cursor: pointer;width: 80px;height:80px;border-radius: 50%;background: #2e694a;position: absolute;left: 0;bottom: 0;top:0;right: 0;margin:auto;}
+.lrc-sanjiao{border:20px solid #000; border-color: transparent transparent transparent #fff;margin-top: 20px;margin-left:35px;}
+.lrc-zhunbei{cursor: pointer;width:266px;height: 56px;background: url(../image/lrc-zhunbei.png) no-repeat;margin:0 auto;position: absolute;bottom:60px;}
