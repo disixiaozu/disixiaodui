@@ -126,6 +126,12 @@ ul {
     width: 100%;
     height:243px;
 }
+
+
+
+
+
+
 /*右边*/
 .fxl-right{
     width: 850px;
@@ -133,12 +139,100 @@ ul {
     position: relative;
     left:356px;
     top:-181px;
-    background: blue;
+    background: #fff;
 }
+.fxl-ti{
+    width:733px;
+    height:750px;
+    margin-left:47px;
+    background:#fff;
+    margin-top:40px;
+}
+.fxl-tkg1{
+    width:390px;
+    height:32px;
+    /*margin-top:34px;*/
+    background: url(../image/fxl-t.png);
+}
+.fxl-title{
+    width:733px;
+    height:724px;
+    /*background:#ccc;*/
+}
+.fxl-subject{
+    width:144px;
+    height:35px;
+    margin-top: 30px;
+    /*margin-bottom: 25px;*/
+}
+.fxl-timu{
+    font-size:24px;
+    color:#3DC75D;
+    font-weight:bold;
+}
+.fxl-sub{
+    font-size:16px;
+    color:#FFCB00;
+}
+/*UI基础知识*/
+.fxl-bao{
+    width:733px;
+    height:300px;
+}
+.fxl-ui{
+    display:inline-block;
+    width:733px;
+    height:48px;
+    font-size: 18px;
+    margin-top:10px;
+    font-weight: bold;
+}
+.fxl-hr{
+    width:733px;
+    height:1px;
+    background:#E1E1E1;
+}
+.fxl-what{
+    width:auto;
+    height:210px;
+    margin-top:10px;
+    margin-left:20px;
+    color:#888787;
+    margin-bottom:20px;
+}
+.fxl-nei{
+    width:auto;
+    height:50px;
+    float:left;
+    margin-bottom:30px;
+}
+
+.fxl-answer li{
+    width:120px;
+    height:20px;
+    float:left;
+    margin-left:30px;
+    list-style:none;
+    margin-top:10px;
+}
+.fxl-jr{
+    display: block;
+    width: 180px;
+    height: 70px;
+    float: right;
+    margin-top: 10px;
+    background: url(../image/fxl-jr.png);
+}
+
+
+
+
+
+
 .ljt-c1{
-    width: 349px;
+    width:600px;
     height: 37px;
-    background: red;
+    /*background: red;*/
     position: absolute;
     top:28px;left: 50px;
 }
@@ -150,11 +244,69 @@ ul {
 .ljt-bishi{
     width: 44px;
     height: 24px;
-    font-size: 18px;
-    color: #000;
-    font-family: "方正粗圆繁体"
+    font-size: 20px;
+    color: #96855c;
+    font-family: "方正粗圆繁体";
+  cursor: pointer;
 
 }
-.ljt-zizhu{
+.ljt-zhizhu{
+    color: #fad986;
+    width: 145px;
+    height: 37px;
+    position: absolute;
+    left: 40px;top:0px;
+    font-size: 35px;
+ font-family: "方正粗圆繁体";
+  cursor: pointer;
 
+}
+.ljt-biancheng{
+    width: 62px;
+    height: 23px;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color:#000;
+    position: absolute;
+    left: 185px;top:10px;
+     cursor: pointer;
+
+}
+.ljt-gang{
+    width: 2px;
+    height:30px;
+    background:  #fad986;
+    border-radius: 50px;
+    position: absolute;
+    left: 260px;top: 2px;
+     cursor: pointer;
+
+}
+.ljt-ying{
+    width: 188px;
+    height:11px;
+    position: absolute;
+    right:130px;
+    top:2px;
+     font-family: "方正粗圆繁体";
+    font-size: 15px;
+    color:#000;
+}
+.ljt-ying1{
+    width: 188px;
+    height:11px;
+    position: absolute;
+    right:130px;
+    top:20px;
+     font-family: "方正粗圆繁体";
+    font-size: 18px;
+    color: #fad986;
+}
+.ljt-xian{
+    width: 740px;
+    height: 3px;
+  background: #000;
+  border-radius: 50px;
+    position: absolute;
+    top: 50px;left: 0px; 
 }
