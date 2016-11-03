@@ -594,3 +594,244 @@ img{border:none;}*/
 	height: 100%;
 }
 >>>>>>> origin/master
+.yc_mianban{
+	width: 953px;
+	height: 489px;
+	border:1px solid #10c8f0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top:  -224px;px;
+	margin-left: -476px;
+	background: #EFEFEF;
+}
+.yc_mask{
+	width: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	background: #000;
+	opacity: 0.8;
+}
+.yc_jinji{
+	width: 415px;
+	height:189px;
+	background: #10C8F0;
+	position: absolute;
+	top: -104px;
+	margin-left: 269.5px;
+	box-shadow: 1px 1px 18px 1px #195c6d;
+	border:1px solid #76706F;
+}
+.yc_jinji span{
+	display: block;
+	color: white;
+	font-family: 微软雅黑;
+	/*font-family: MStiffHeiPRC;*/
+}
+.yc_nin{
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 27px;
+	margin-top:8px;
+	
+}
+.yc_jin{
+	margin-left: 160px;
+	font-size: 48px;
+	position: absolute;
+	top: 45px;
+	font-weight: bold;
+
+}
+.yc_notice{
+	font-size: 56px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 5px;
+	top: 30px;
+	/* position: absolute; */
+	/* left: 50%; */
+	/* margin-left: -210px; */
+	text-align: center;
+	margin: 20px 0;
+}
+.yc_fengefu{
+	display: block;
+	width: 357px;
+	height: 10px;
+	 text-align: center;
+	margin: -20px 26px;
+	background: #fff;
+
+}
+.yc_interview{
+	font-size: 33px;
+	/* position: absolute; */
+	/* top: 108px; */
+	/* left: 190px; */
+	/* font-family: San Francsico; */
+	font-weight: bold;
+	margin-top: 19px;
+	text-align: center;
+}
+.yc_join{
+	font-size: 24px;
+	position: absolute;
+	right: 35px;
+	bottom: 10px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+}
+.yc_hang1,.yc_hang2,.yc_hang3{
+	width:680px;
+	height: 50px;
+	position: absolute;
+	top:165px;
+	left: 143px;
+}
+.yc_hang2{
+	margin-top: 100px;
+}
+.yc_hang3{
+	margin-top: 200px;
+}
+.yc_date{
+	display: inline-block;
+	width: 146px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	background: url(../css/image/sly_03.png) no-repeat;
+	background-size: 146px 44px;
+	color: #726028;
+	font-size: 18px;
+	float: left;
+	margin-top: 3px;
+}
+.yc_datey,.yc_datem{
+	float: left;
+	width: 233px;
+	height: 48px;
+	border: #e7e7e7 solid 1px;
+	background: #fff;
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	
+}
+.yc_datem{
+	margin-left: 30px;
+}
+.sanjiao{
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+.yc_dates{
+	float: left;
+	width: 498px;
+	height: 48px;
+	border: #e7e7e7 solid 1px;
+	background: #fff;
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	font-size: 18px;
+	color: #2e2e2e;
+	
+}
+.wxm-mfootl{
+	width: 613px;
+	height:32px;
+	background: #006648;
+	position: absolute;
+	left: 84px;
+	bottom:-32px;
+	box-shadow: 3px 3px 3px #005D66;
+
+}
+.wxm-mfoot2{
+	width: 306px;
+	height:22px;
+	position: absolute;
+	left:533px;bottom:-22px;
+}
+.wxm-mfoot2 img{
+	width: 306px;
+	height: 62px;
+}
+.yc_shi{
+	font-size: 18px;
+	color: #2e2e2e;
+}
+.yc-send{
+	position: absolute;
+	right: 86px;
+	bottom: 70px;
+}
+
+.yc-send1{
+	position: absolute;
+	left: 8px;
+	bottom: 104px;
+	background: url(../image/btn-huizong.png);
+	background-position: 0 -114px;
+	width: 367px;
+	height: 56px;
+}
+input{
+	border: 0;
+	background-color: transparent;
+}
+.sly-yellow,.sly-blue,.sly-green{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 39px;
+	font-family: "微软雅黑";
+}
+/*查看简答题按钮*/
+.wwj-checkjdt{
+	width: 269px;
+	height: 57px;
+	background-image: url(../image/btn-huizong.png);
+	background-position: 0 -505px;
+	background-repeat: no-repeat;
+}
+/*确定按钮，蓝色*/
+.wwj-okblue{
+	width: 255px;
+	height: 56px;
+	background-image: url(../image/btn-huizong.png);
+	background-position: 0 -618px;
+	background-repeat: no-repeat;
+}
+/*确定按钮，绿色*/
+.wwj-okgreen{
+	width: 260px;
+	height: 57px;
+	background-image: url(../image/btn-huizong.png);
+	background-position: 0 -562px;
+	background-repeat: no-repeat;
+}
+/*转发简历*/
+.yc-relay{background:url(../image/btn-huizong.png);
+			background-position:0 -336px;
+			width:270px;
+			height:57px;
+}
+/*下载简历*/
+.yc-down{background:url(../image/btn-huizong.png);
+			background-position:0 -393px;
+			width:258px;
+			height:55px;
+}
+/*发送邀请*/
+.yc-send{
+	background: url(../image/btn-huizong.png);
+	background-position: 6px -58px;
+	width: 367px;
+	height: 56px;
+}
