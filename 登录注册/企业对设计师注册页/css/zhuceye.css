@@ -1,0 +1,493 @@
+body{
+	overflow: auto;
+}
+body,p,pre,ul,li,ol,dl,dt,dd,h1,form,input,h3{
+	margin: 0;
+	padding:0;
+    list-style: none;
+}
+.wjf_mianban{
+	width: 953px;
+	height:1551px;
+	border:1px solid #10c8f0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -271px;
+	margin-left: -476px;
+	background: #EFEFEF;
+}
+.wjf_mianban1{
+	width: 953px;
+	height:1851px;
+	border:1px solid #10c8f0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -271px;
+	margin-left: -476px;
+	background: #EFEFEF;
+}
+.wjf_mask{
+	width: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	background: #000;
+	opacity: 0.8;
+}
+.wjf_jinji{
+	width: 560px;
+	height:189px;
+	background: #10C8F0;
+	position: absolute;
+	top: -104px;
+	margin-left: 196px;
+	box-shadow: 1px 1px 18px 1px #195c6d;
+	border:1px solid #76706F;
+}
+.wjf_jinji span{
+	display: block;
+	color: white;
+	font-family: 方正粗黑繁体;
+}
+.wjf_nin{
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 27px;
+	margin-top:8px;
+	
+}
+.wjf_jin{
+	margin-left: 210px;
+	font-size: 48px;
+	position: absolute;
+	top: 45px;
+	font-weight: bold;
+
+}
+.wjf_interview{
+	font-size: 32px;
+	position: absolute;
+	top: 108px;
+	left: 190px;
+	font-family: San Francsico;
+	font-weight: bold;
+}
+.wjf_join{
+	font-size: 24px;
+	position: absolute;
+	right: 35px;
+	bottom: 10px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+}
+.wjf_hang1,.wjf_hang2,.wjf_hang3,.wjf_hang4,.wjf_hang5,.wjf_hang6{
+	width:680px;
+	height: 50px;
+	position: absolute;
+	top:165px;
+	left: 143px;
+}
+.wjf_hang2{
+	margin-top: 100px;
+}
+.wjf_hang3{
+	margin-top: 400px;
+}
+.wjf_hang4{
+	margin-top: 700px;
+}
+.wjf_hang5{
+	margin-top: 800px;
+}
+.wjf_hang6{
+	margin-top: 1200px;
+}
+.wjf_date{
+	display: inline-block;
+	width: 146px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	background: url(../image/sly_03.png) no-repeat;
+	background-size: 146px 44px;
+	color: #726028;
+	font-size: 18px;
+	float: left;
+	margin-top: 3px;
+}
+.wjf_datey,.wjf_datem{
+	float: left;
+	width: 233px;
+	height: 48px;
+	border: #e7e7e7 solid 1px;
+	background: #fff;
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	
+}
+.wjf_datem{
+	margin-left: 30px;
+}
+.sanjiao{
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+.wjf_dates{
+	float: left;
+	width: 488px;
+	height: 48px;
+	border: #e7e7e7 solid 1px;
+	background: #fff;
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	font-size: 18px;
+	color: #2e2e2e;
+	padding-left:10px;
+	line-height: 48px;
+}
+.wjf_dates1{
+	float: left;
+	width: 498px;
+	height: 240px;
+	border: #e7e7e7 solid 1px;
+	background: #fff;
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	font-size: 18px;
+	color: #2e2e2e;
+	line-height: 48px;
+}
+
+.wjf_dates2{
+	float: left;
+	width: 498px;
+	height: 336px;
+	border: #e7e7e7 solid 1px;
+	background: #fff;
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	font-size: 18px;
+	color: #2e2e2e;
+	line-height: 48px;
+}
+.wjf_dates1 .wjf_dates1_1{
+	width:488height:20%;
+	padding-left: 10px;
+}
+
+.wjf_dates2 .wjf_dates1_1{
+	width:488px;
+	height:14.3%;
+	padding-left: 10px;
+}
+.wjf_dates1_2{
+	border-bottom:1px solid #ccc;
+	position: relative;
+}
+.wjf_hang4_dates{
+	float: left;
+	width: 220px;
+	height: 48px;
+	border: #e7e7e7 solid 1px;
+	background: #fff;
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	font-size: 18px;
+	color: #2e2e2e;
+	padding-left:10px;
+	line-height: 48px;
+	float: left;
+}
+.wjf-mfootl{
+	width: 613px;
+	height:32px;
+	background: #006648;
+	position: absolute;
+	left:77px;
+	bottom:-32px;
+	box-shadow: 3px 3px 3px #005D66;
+
+}
+.wjf-mfoot2{
+	width: 306px;
+	height:22px;
+	position: absolute;
+	left:533px;bottom:-22px;
+}
+.wjf-mfoot2 img{
+	width: 306px;
+	height: 62px;
+}
+.wjf_shi{
+	font-size: 18px;
+	color: #2e2e2e;
+}
+.wjf-send{
+	position: absolute;
+	right: 145px;
+	bottom: 70px;
+}
+.wjf-send1{
+	position: absolute;
+	right: 145px;
+	bottom: 70px;
+}
+.wjf-span{
+	position: absolute;
+	right: 235px;
+	bottom: 40px;
+}
+input{
+	border: 0;
+	background-color: transparent;
+}
+
+/*发送邀请*/
+.wjf-send{background:url(../image/wjf-bg.png);
+	width:255px;
+	height:60px;
+}
+.wjf-send1{background:url(../image/wjf-bg2.png);
+	 /*background-position:0 -449px;*/
+	 width:255px;
+	 height:55px;
+ }
+
+
+a{
+	text-decoration: none;
+}
+.ljt_mianban{
+	width: 953px;
+	height: 726px;
+	border:1px solid #10c8f0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -190px;
+	margin-left: -476px;
+	background: #EFEFEF;
+}
+.ljt_mask{
+	width: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	background: #000;
+	opacity: 0.8;
+	z-index: -3;
+}
+.ljt_jinji{
+	width: 560px;
+	height:189px;
+	background: #10C8F0;
+	position: absolute;
+	top: -104px;
+	left: 196px;
+	/*margin-left: 196px;*/
+	box-shadow: 1px 1px 18px 1px #195c6d;
+	border:1px solid #76706F;
+	text-align: center;
+	line-height: 139px;
+	font-weight: 800px;
+	font-family: "方正粗圆繁体"
+}
+
+.ljt-1{
+	/*margin-top: -20px;*/
+	font-size: 48px;
+	color: #fff;
+}
+.ljt-2{
+	font-size: 36px;
+	color: #fff;
+	position: absolute;
+	display: block;
+	top:60px;left: 210px;
+}
+.ljt-xiaozi{
+	width: 174px;
+	height: 37px;
+	position:absolute;
+	right:149px;top: 210px;
+	/*background: red;*/
+
+}
+.ljt-xiaozi a{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #000;
+
+}
+.ljt-zhongkuang{
+	width: 677px;
+	height: 308px;
+	position: absolute;
+	left: 144px;
+	top:230px;
+	/*background: red;*/
+}
+.ljt-s{
+	width: 100%;
+	height: 56px;
+	/*background: red;*/
+	margin-top: 25px
+}
+.ljt-s1{
+	width: 152px;
+	height: 46px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px;
+	background:url(../image/fxs-jlt.png) no-repeat;
+	background-position: -355px 5px;
+	float: left;
+}
+.ljt-shu{
+	width: 498px;
+	height: 48px;
+	margin-left: 20px;
+	border: 0px;
+	float: left;
+	box-shadow: 0 5px 6px 0 #b3b3b3;
+}
+.ljt-s2{
+	width: 498px;
+	height: 48px;
+	margin-left: 20px;
+	border: 0px;
+	float: left;
+	/*box-shadow: 0 5px 6px 0 #b3b3b3;*/
+
+}
+.ljt-in{
+	width: 236px;
+	height: 48px;
+	float: left;
+	border: 0px;
+		box-shadow: 0 2px 6px 3px #b3b3b3;
+
+}
+.ljt-in2{
+	width: 236px;
+	height: 48px;
+	float: right;
+	border: 0px;
+		box-shadow: 0 2px 6px 3px #b3b3b3;
+		text-align: center;
+		font-size: 18px;
+
+}
+.ljt-cc{
+	width: 249px;
+	height: 57px;
+	position: absolute;
+	right: 147px;
+	bottom: 80px;
+	/*background: red;*/
+	background: url(../image/ljt-zhuce.png) no-repeat;
+}
+/*企业对学生注册身份验证*/
+.ljt_mianban-1{
+	width: 953px;
+	height: 603px;
+	border:1px solid #10c8f0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -190px;
+	margin-left: -476px;
+	background: #EFEFEF;
+}
+.ljt-2-1{
+	font-size: 36px;
+	color: #fff;
+	position: absolute;
+	display: block;
+	top:60px;left: 140px;
+}
+.ljt-sheng{
+	width: 300px;
+	height: 28px;
+	/*background: red;*/
+	position: absolute;
+	left: 346px;top:103px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 18px;
+	color: #000;
+}
+.ljt-tu1{
+	width: 300px;
+	height: 286px;
+	background: url(../image/ljt-11.png) no-repeat;
+	position: absolute;
+	background-position: center;
+	left: 127px;top:173px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.ljt-tu2{
+	width: 300px;
+	height: 286px;
+	background: url(../image/ljt-22.png) no-repeat;
+	position: absolute;
+	right: 127px;top:173px;
+	border: 1px solid #000;
+	background-position: center;
+	background-color: #fff;
+}
+.ljt-btn1{
+	width: 140px;
+	height: 40px;
+	background: red;
+	position: absolute;
+	left: 206px;bottom: 80px;
+	background:url(../image/fxs-jlt.png) no-repeat;
+	background-position: -360px 0px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "微软雅黑"
+}
+.ljt-btn2{
+	width: 140px;
+	height: 40px;
+	/*background: red;*/
+	position: absolute;
+	right: 206px;bottom: 80px;
+	background:url(../image/fxs-jlt.png) no-repeat;
+	background-position: -360px -40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "微软雅黑"
+}
+.ljt-xiakuai{
+	width: 306px;
+	height: 108px;
+	background: url(../image/wxm-mbottom.png) no-repeat;
+	position: absolute;
+	bottom: -50px;right: 113px;
+	z-index: -1;
+}
+.ljt-xiakuai1{
+	width: 613px;
+	height: 78px;
+	background: url(../image/ljt-111.png) no-repeat;
+	position: absolute;
+	bottom: -20px;left: 20px;
+	z-index: -2;
+}
