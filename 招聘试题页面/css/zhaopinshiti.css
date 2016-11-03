@@ -133,5 +133,111 @@ ul {
     position: absolute;
     left:356px;
     top:-181px;
-    background: blue;
+    background:#fff;
+    box-shadow: 0 0 10px 3px #ccc;
+}
+.fxs-right-tk{
+    width: 390px;
+    height: 34px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background: url(../image/srx_bs0-5.png) no-repeat;
+}
+.fxs-right-tm{
+    width: 143px;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background: url(../image/srx_bs0-5.png) 0 -33px no-repeat;
+
+}
+.fxs-right-jctm{
+/*    margin-top: 20px;*/
+    margin-left: 50px;
+    width:736px;
+    height: 44px;
+    color: #000;
+    font-size: 18px;
+    font-family:微软雅黑;
+    border-bottom: 1px solid #ccc;
+    line-height: 44px;
+}
+.fxs-right-tmm{
+    width:736px;
+    height:auto;
+}
+.fxs-right-ul1{
+    width:736px;
+    height: 236px;
+    margin-left: 50px;
+/*    background: #000;*/
+}
+.fxs-right-ul1 li{
+    margin-bottom: 5px;
+}
+.fxs-right-ul1p{
+    width: 736px;
+    height: 42px;
+    display: block;
+    color: #888787;
+}
+.fxs-right-ul1pbj{
+    width: 26px;
+    height: 26px;
+    background: url(../image/srx_bs0-5.png) -26px -115px no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+.fxs-right-ul1ptm{
+    float: left;
+    font-size: 18px;
+}
+.fxs-right-ul2{
+    width: 736px;
+    height: 36px;
+    display: block;
+    line-height: 36px;
+    margin-left: 20px;
+}
+.fxs-right-ul2 li{
+    display: block;
+    float: left;
+    margin-right: 60px;
+    margin-left: 0;
+    font-size: 18px;
+    color: #888787;
+}
+.fxs-right-ul2 li{
+    margin-left: 20px;
+}
+.fxs-right-btn{
+    width: 172px;
+    height: 60px;
+    background: url(../image/srx_bs0-5.png) 2px -55px no-repeat;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+.fxs-right-btn1{
+    width: 172px;
+    height: 60px;
+    background: url(../image/srx_bs0-5.png) 2px -55px no-repeat;
+    position: absolute;
+    bottom: 10px;
+    right: 220px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    
+}
+.fxs-right-btn a,.fxs-right-btn1 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: auto;
+    height: auto;
+
 }
